@@ -26,8 +26,8 @@ describe('AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain(
-      'uswds-angular-starter app is running!'
+    expect(compiled.querySelector('.usa-logo__text').textContent).toContain(
+      'Project title'
     );
   });
 });
